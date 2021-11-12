@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_Shop"
+        android:icon="@drawable/shopw"
+        android:title="Shop" />
+
+    <item
+        android:id="@+id/navigation_AboutUs"
+        android:icon="@drawable/blob"
+        android:title="About Us" />
+
+
+    <item
+        android:id="@+id/navigation_Contact"
+        android:icon="@drawable/ic_blob__3_"
+        android:title="Contact" />
+
+
+
+</menu>

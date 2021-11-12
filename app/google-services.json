@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "362816391648",
+    "project_id": "sharabhproject",
+    "storage_bucket": "sharabhproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362816391648:android:cf820a8b86f4d190f7c385",
+        "android_client_info": {
+          "package_name": "com.buzz_ht.sharabhproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362816391648-ahdskemcdhjrac0bkd2ha75fk1ktg15d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB7W6LlCFBD9Zb3xBo1mljGVkDSpCA_lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362816391648-ahdskemcdhjrac0bkd2ha75fk1ktg15d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

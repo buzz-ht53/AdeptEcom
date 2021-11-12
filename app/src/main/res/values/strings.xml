@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SharabhProject</string>
+    <string name="title_activity_main_btm">MainActivityBtm</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutus">Amidst all this chaos of COVID 19 pandemic, we were compelled to think about our planet Earth, Nature and Environment. It was time to evaluate what the future holds for us.
+\n Reaffirming our firm belief in using environmentally sustainable products, we thought of promoting the usage of ‘Paper Bags’ across our country and the entire world.
+
+\n We at Adept Industries are committed to providing the best quality of environment-friendly Paper Bags and other products to our customers and building everlasting relations based on trust and good service.</string>
+</resources>
