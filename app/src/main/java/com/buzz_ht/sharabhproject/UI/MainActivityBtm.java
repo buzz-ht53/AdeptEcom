@@ -1,8 +1,13 @@
-package com.buzz_ht.sharabhproject;
+package com.buzz_ht.sharabhproject.UI;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.buzz_ht.sharabhproject.Fragments.FragmentAbout;
+import com.buzz_ht.sharabhproject.Fragments.FragmentContact;
+import com.buzz_ht.sharabhproject.Fragments.FragmentHome;
+import com.buzz_ht.sharabhproject.Fragments.FragmentShop;
+import com.buzz_ht.sharabhproject.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
@@ -14,26 +19,32 @@ import com.buzz_ht.sharabhproject.databinding.ActivityMainBtmBinding;
 
 public class MainActivityBtm extends AppCompatActivity {
 
+
     private ActivityMainBtmBinding binding;
     private Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-       // toolbar=findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         binding = ActivityMainBtmBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        getSupportActionBar().setTitle("Adept Industries");
         BottomNavigationView navView = findViewById(R.id.nav_view);
+        FragmentManager fm5 = getSupportFragmentManager();
+        fm5.beginTransaction().replace(R.id.ll, new FragmentHome()).commit();
+
+
+        // navView.setSelectedItemId(R.id.navigation_Home); // change to whichever id should be default
+        // toolbar=findViewById(R.id.toolbar);
 
 
         navView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-                switch (item.getItemId()){
+                switch (item.getItemId()) {
 
                     case R.id.navigation_Home:
                         FragmentHome f1 = new FragmentHome();

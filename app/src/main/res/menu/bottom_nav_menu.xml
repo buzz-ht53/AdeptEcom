@@ -8,19 +8,19 @@
 
     <item
         android:id="@+id/navigation_Shop"
-        android:icon="@drawable/shopw"
-        android:title="Shop" />
+        android:title="Shop"
+        android:icon="@drawable/shopw" />
 
     <item
         android:id="@+id/navigation_AboutUs"
-        android:icon="@drawable/blob"
-        android:title="About Us" />
+        android:title="About Us"
+        android:icon="@drawable/ic_baseline_info_24" />
 
 
     <item
         android:id="@+id/navigation_Contact"
-        android:icon="@drawable/ic_blob__3_"
-        android:title="Contact" />
+        android:title="Contact"
+        android:icon="@drawable/ic_baseline_connect_without_contact_24" />
 
 
 

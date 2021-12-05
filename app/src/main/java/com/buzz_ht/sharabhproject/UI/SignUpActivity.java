@@ -1,4 +1,4 @@
-package com.buzz_ht.sharabhproject;
+package com.buzz_ht.sharabhproject.UI;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,9 +8,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.buzz_ht.sharabhproject.R;
+import com.buzz_ht.sharabhproject.UI.LoginActivity;
+import com.buzz_ht.sharabhproject.UI.MainActivityBtm;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
@@ -29,6 +31,8 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+        getSupportActionBar().hide();
+
 
         init();
 
@@ -59,7 +63,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                         if(task.isSuccessful()){
                             Toast.makeText(getApplicationContext(),"SignUp successful", Toast.LENGTH_LONG).show();
-                            Intent i = new Intent(getApplicationContext(),MainActivityBtm.class);
+                            Intent i = new Intent(getApplicationContext(), MainActivityBtm.class);
                             startActivity(i);
                             finish();
                         }
@@ -90,6 +94,6 @@ public class SignUpActivity extends AppCompatActivity {
 
 
     public void GoToLogin(View view) {
-        startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+        startActivity(new Intent(getApplicationContext(), LoginActivity.class));
     }
 }

@@ -4,159 +4,196 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/black"
-    tools:context=".FragmentAbout"
+    android:background="@color/purple_500"
+    tools:context=".Fragments.FragmentAbout"
     tools:ignore="MissingDefaultResource">
 
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
-        <LinearLayout
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
+            android:layout_marginTop="20dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="We are a fully modern and automatic paper bag making facility based out of Pune, India."
-                android:textColor="@color/white"
-                style="@style/TextAppearance.AppCompat.Title"
-                android:layout_margin="10dp"/>
-
-            <View
-                android:id="@+id/divider2"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:backgroundTint="@color/design_default_color_primary"
-                android:background="@color/design_default_color_primary"
-                android:layout_margin="10dp"/>
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/catamaran_semibold"
+                android:text="We are a fully modern and automatic paper bag making facility based out of Pune, India."
+                android:textColor="@color/black" />
 
-<com.google.android.material.card.MaterialCardView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    android:padding="5dp"
-    app:cardCornerRadius="10dp"
-    android:backgroundTint="#3E3C3C">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        </com.google.android.material.card.MaterialCardView>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="About Us"
-            android:textColor="#2979FF"
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_margin="10dp"/>
 
-        <TextView
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#D3B6F7"
-            android:text="Amidst all this chaos of COVID 19 pandemic, we were compelled to think about our planet Earth, Nature and Environment. It was time to evaluate what the future holds for us.
+            android:layout_height="wrap_content">
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="#010101">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="About Us"
+                            android:textColor="#2979FF"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/autour_one"
+                            style="@style/TextAppearance.AppCompat.Title"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Amidst all this chaos of COVID 19 pandemic, we were compelled to think about our planet Earth, Nature and Environment. It was time to evaluate what the future holds for us.
 \nReaffirming our firm belief in using environmentally sustainable products, we thought of promoting the usage of ‘Paper Bags’ across our country and the entire world.
-
 \nWe at Adept Industries are committed to providing the best quality of environment-friendly Paper Bags and other products to our customers and building everlasting relations based on trust and good service."
-            android:layout_margin="10dp"/>
-    </LinearLayout>
+                            android:textColor="@color/white" />
+                    </LinearLayout>
 
 
-</com.google.android.material.card.MaterialCardView>
+                </com.google.android.material.card.MaterialCardView>
 
-<com.google.android.material.card.MaterialCardView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    android:padding="5dp"
-    app:cardCornerRadius="10dp"
-    android:backgroundTint="#3E3C3C">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="#010101">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Our Manufacturing Plant"
+                            android:textColor="#2979FF"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/autour_one"
+                            style="@style/TextAppearance.AppCompat.Title"
+                            android:layout_margin="10dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Our Manufacturing Plant"
-            android:textColor="#2979FF"
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_margin="10dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#D3B6F7"
-            android:text="To ensure global quality standards of our products, we started a fully automatic paper bag manufacturing facility capable of delivering us bags of different shapes and sizes, without any human interference.
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:text="To ensure global quality standards of our products, we started a fully automatic paper bag manufacturing facility capable of delivering us bags of different shapes and sizes, without any human interference.
 
 \nTo meet with the ever increasing vogue of our customers , we have a inhouse Design and Printing team capable of providing excellent design solutions to our customers"
-            android:layout_margin="10dp"/>
+                            android:textColor="@color/white" />
+                    </LinearLayout>
 
 
+                </com.google.android.material.card.MaterialCardView>
 
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="#010101">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Our Vision"
+                            android:textColor="#2979FF"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/autour_one"
+                            style="@style/TextAppearance.AppCompat.Title"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:text="Our Mission is to promote the usage of Paper Bags as a sustainable alternative to Plastic across the planet for a better tomorrow"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="#010101">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="About Us"
+                            android:textColor="#2979FF"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/autour_one"
+                            style="@style/TextAppearance.AppCompat.Title"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Amidst all this chaos of COVID 19 pandemic, we were compelled to think about our planet Earth, Nature and Environment. It was time to evaluate what the future holds for us.
+\nReaffirming our firm belief in using environmentally sustainable products, we thought of promoting the usage of ‘Paper Bags’ across our country and the entire world.
+\nWe at Adept Industries are committed to providing the best quality of environment-friendly Paper Bags and other products to our customers and building everlasting relations based on trust and good service."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
 
     </LinearLayout>
-
-</com.google.android.material.card.MaterialCardView>
-
-
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Our Vision"
-                android:textColor="#2979FF"
-                style="@style/TextAppearance.AppCompat.Title"
-                android:layout_margin="10dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/white"
-                android:text="Our Mission is to promote the usage of Paper Bags as a sustainable alternative to Plastic across the planet for a better tomorrow"
-                android:layout_margin="10dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Quality Checks"
-                android:textColor="#2979FF"
-                style="@style/TextAppearance.AppCompat.Title"
-                android:layout_margin="10dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                style="@style/TextAppearance.AppCompat.Body1"
-                android:text="blah blah blah we are goodcompany dshasdjsajdnkajasdadndnkasndkasnkdjanskndkasndkasndkansdkanskd dasdnaskdnkasnd dnakdnaskjdnk dasndkj dsd ds dsdnkn kasjndkjsn d "
-                android:layout_margin="10dp"/>
-
-
-
-        </LinearLayout>
-
-
-
-
-
-    </ScrollView>
-
-
 
 </FrameLayout>
