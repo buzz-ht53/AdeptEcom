@@ -8,17 +8,19 @@ public class Bag {
     String price;
     String availability;
     int image;
+    String currentQuantity;
 
     public Bag() {
     }
 
-    public Bag(String bagName, String bagDimensions, String color, String price, String availability, int image) {
+    public Bag(String bagName, String bagDimensions, String color, String price, String availability, int image, String currentQuantity) {
         this.bagName = bagName;
         this.bagDimensions = bagDimensions;
         this.color = color;
         this.price = price;
         this.availability = availability;
         this.image = image;
+        this.currentQuantity = currentQuantity;
     }
 
     public String getBagName() {
@@ -68,4 +70,13 @@ public class Bag {
     public void setImage(int image) {
         this.image = image;
     }
+
+    public String getCurrentQuantity() {
+        return currentQuantity;
+    }
+
+    public void setCurrentQuantity(String currentQuantity) {
+        this.currentQuantity = currentQuantity;
+    }
 }
+

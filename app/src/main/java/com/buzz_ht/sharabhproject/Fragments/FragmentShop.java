@@ -36,13 +36,13 @@ public class FragmentShop extends Fragment {
 
         list = new ArrayList<>();
 
-        list.add(new Bag("Bag 1", "100 * 250 * 350 mm", "Brown", "N/A", "Available", R.drawable.brown_plain));
+        list.add(new Bag("Plain bag", "100 * 250 * 350 mm", "Brown", "N/A", "Available", R.drawable.brown_plain, "0"));
 
-        list.add(new Bag("Bag 2", "125 * 300 * 400 mm", "Brown", "N/A", "Available", R.drawable.brown_plain));
+        list.add(new Bag("Plain bag", "125 * 300 * 400 mm", "Brown", "N/A", "Available", R.drawable.brown_plain, "0"));
 
-        list.add(new Bag("Bag 3", "175 * 300 * 250 mm", "Brown", "N/A", "Available", R.drawable.brown_plain));
+        list.add(new Bag("Plain bag", "175 * 300 * 250 mm", "Brown", "N/A", "Available", R.drawable.brown_plain, "0"));
 
-        list.add(new Bag("Bag 4", "200 * 350 * 250 mm", "Brown", "N/A", "Available", R.drawable.brown_plain));
+        list.add(new Bag("Plain bag", "200 * 350 * 250 mm", "Brown", "N/A", "Available", R.drawable.brown_plain, "0"));
 
         recViewAdapter = new RecViewAdapter(getContext(), list);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));

@@ -4,24 +4,25 @@
     <item
         android:id="@+id/navigation_Home"
         android:icon="@drawable/ic_home_black_24dp"
+        android:enabled="true"
         android:title="Home" />
 
     <item
         android:id="@+id/navigation_Shop"
         android:title="Shop"
+        android:enabled="true"
         android:icon="@drawable/shopw" />
 
     <item
-        android:id="@+id/navigation_AboutUs"
-        android:title="About Us"
-        android:icon="@drawable/ic_baseline_info_24" />
+        android:id="@+id/navigation_Cart"
+        android:title="Cart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24" />
 
 
     <item
-        android:id="@+id/navigation_Contact"
-        android:title="Contact"
-        android:icon="@drawable/ic_baseline_connect_without_contact_24" />
-
+        android:id="@+id/navigation_About_Us"
+        android:title="About Us"
+        android:icon="@drawable/ic_baseline_info_24" />
 
 
 </menu>
