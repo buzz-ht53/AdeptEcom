@@ -35,11 +35,11 @@ public class FragmentCart extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_cart, container, false);
 
-        list = new ArrayList<Bag>();
+      /*  list = new ArrayList<Bag>();
         recyclerView = view.findViewById(R.id.recview_cart);
         recViewAdapterCart = new RecViewAdapterCart(getContext(), new RecViewAdapterCart().list);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerView.setAdapter(recViewAdapterCart);
+        recyclerView.setAdapter(recViewAdapterCart);*/
 
 
         return view;

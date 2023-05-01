@@ -31,7 +31,7 @@ public class MainActivityBtm extends AppCompatActivity {
 
         binding = ActivityMainBtmBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        getSupportActionBar().setTitle("Adept Industries");
+        getSupportActionBar().setTitle("PaperBag Inc.");
         BottomNavigationView navView = findViewById(R.id.nav_view);
         FragmentManager fm5 = getSupportFragmentManager();
         fm5.beginTransaction().replace(R.id.ll, new FragmentHome()).commit();
